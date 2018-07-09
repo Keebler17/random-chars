@@ -5,7 +5,7 @@ import java.util.Random;
 public class Chars {
 	public static void main(String[] args) {
 		if(args.length != 1) {
-			System.out.println("Generates random characters.\nUsage: chars [int]");
+			System.out.println("Generates random characters, in range of ASCII 33-127 (Not sure if 127 works).\nUsage: chars [int]");
 			System.exit(0);
 		} else {
 			try {
